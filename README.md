@@ -5,7 +5,7 @@ Alpine linux based Haskell build environment for static binaries with musl
 From your project directory run:
 
 ```
-docker run -v $(pwd):/usr/src/build -v ${HOME}/.stack:/root/.stack -w /usr/src/build -it aevans/haskellbuild:0.1.0-base bash
+docker run -v $(pwd):/usr/src/build -v ${HOME}/.stack:/root/.stack -w /usr/src/build -it q4uw/httpredirector bash
 ```
 
 This will:
@@ -31,3 +31,4 @@ You can further compress the binary which significantly reduces the size using `
 upx --best --ultra-brute dist/${BINARY_NAME}
 ```
 
+docker run --rm -ti aevans/httpredirector

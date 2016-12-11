@@ -8,7 +8,7 @@ https://www.fpcomplete.com/blog/2016/10/static-compilation-with-stack .
 From your project directory run:
 
 ```
-docker run -v $(pwd):/usr/src/build -v ${HOME}/.stack:/root/.stack -w /usr/src/build -it q4uw/haskell_build_env bash
+docker run --rm -v $(pwd):/usr/src/build -v ${HOME}/.stack:/root/.stack -w /usr/src/build -it q4uw/haskell_build_env
 ```
 
 This will:

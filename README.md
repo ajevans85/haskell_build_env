@@ -1,5 +1,8 @@
 # haskell_build_env
-Alpine linux based Haskell build environment for static binaries with musl
+Alpine linux based Haskell build environment for static binaries with musl.
+
+Image is based on the examples given on the FP Complete Haskell static compliation blogpost
+https://www.fpcomplete.com/blog/2016/10/static-compilation-with-stack .
 
 ## Usage
 From your project directory run:
